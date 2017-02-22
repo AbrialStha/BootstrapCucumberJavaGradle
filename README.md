@@ -1,4 +1,4 @@
-# BootstrapCucumberJava
+# BootstrapCucumberJavaGradle
 Java based Cucumber and Selenium framework bootstraping using gradle.
 
 ##Goals
