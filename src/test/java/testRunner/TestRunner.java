@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         strict = false,
-        features = "Feature",
-        glue = {"stepDefinition"},
+        features = "src/test/Features",
+        glue = {"StepDefination"},
         monochrome = true,
         format = { "pretty",
                 "html:target/site/cucumber-pretty",
