@@ -50,7 +50,7 @@ public class Log {
      *
      * @param message
      */
-    public void trace(String message) {
+    public void trace(StackTraceElement[] message) {
         logger.trace(clazz.getCanonicalName() + ": " + message);
     }
 

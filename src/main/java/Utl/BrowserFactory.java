@@ -29,7 +29,7 @@ public class BrowserFactory {
 
         } else if (s.equals("chrome")) {
             log.info("Initialize the chrome Browser");
-            System.setProperty("webdriver.chrome.driver", "E:\\dependecies\\chromedriver.exe");
+            System.setProperty(ConfigUtils.getProperty("driver"), ConfigUtils.getProperty("driverPath"));
             browser = new ChromeDriver();
 
         } else {
