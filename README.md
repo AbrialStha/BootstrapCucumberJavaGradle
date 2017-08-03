@@ -35,5 +35,6 @@ log.trace("Trace message");
 log.info("Info message");
 log.warn("Warn message");
 log.error("Error message");
+and
 ```
 
